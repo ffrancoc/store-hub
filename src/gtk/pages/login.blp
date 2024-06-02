@@ -1,0 +1,18 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $LoginPage : Adw.NavigationPage {
+  title: 'Login Page';
+  tag: 'login-page';
+
+  child: Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {
+      show-title: false;
+    }
+
+    content: Label {
+      label: 'Hola';
+    };
+  };
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/ffrancoc/StoreHub">
+    <!-- uis -->
+    <file preprocess="xml-stripblanks">gtk/window.ui</file>
+    <file preprocess="xml-stripblanks">gtk/pages/login.ui</file>
+    <!-- css -->
+    <file>css/style.css</file>
+  </gresource>
+</gresources>
+

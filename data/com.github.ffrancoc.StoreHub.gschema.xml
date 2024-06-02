@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="storehub">
+	<schema id="com.github.ffrancoc.StoreHub" path="/com/github/ffrancoc/StoreHub/">
+	  <key name="window-width" type="i">
+      <default>600</default>
+      <description>
+        Ancho de la ventana
+      </description>
+    </key>
+	  <key name="window-height" type="i">
+      <default>500</default>
+      <description>
+        Alto de la ventana
+      </description>
+    </key>
+	  <key name="db-host" type="s">
+      <default>"localhost"</default>
+      <description>
+        Host de la base de datos
+      </description>
+    </key>
+	  <key name="db-port" type="i">
+      <default>28015</default>
+      <description>
+        Puerto de la base de datos
+      </description>
+    </key>
+	  <key name="db-name" type="s">
+      <default>"storehub"</default>
+      <description>
+        Nombre de la base de datos
+      </description>
+    </key>
+	</schema>
+</schemalist>
+

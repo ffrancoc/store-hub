@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=storehub
+Exec=storehub
+Icon=com.github.ffrancoc.StoreHub
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
